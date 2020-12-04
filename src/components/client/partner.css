@@ -1,0 +1,11 @@
+@media(min-width : 500px){
+    .pc{
+        display: none;
+    }
+}
+
+@media(max-width:500px){
+    .drt{
+        display: none;
+    }
+}

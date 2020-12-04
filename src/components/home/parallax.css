@@ -1,0 +1,48 @@
+.kol{
+    height: 400px;
+    background: url('../../assets/international.jpg') no-repeat;
+
+    padding: 100px 0 0 60px;
+  }
+
+  .title{
+      text-align: left;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+  
+      
+  }
+.connect{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.kl{
+    height: 400px;
+    background: url('../../assets/work.jpg') no-repeat;
+}  
+
+.kl{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+
+.kol{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 600px){
+    .kol{
+        padding:50px 0 0 0 !important;
+    }
+}

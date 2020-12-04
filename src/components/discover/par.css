@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display&family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+.dispar{
+    height: 400px;
+    width: 100% !important;
+    background: url('../../assets/international.jpg') no-repeat ;
+
+  }
+.titlea{
+    padding: 45px 59px 10px 34px;
+}
+  .titl{
+      text-align: left;
+      color: black;
+      background: white;
+      font-family: 'Big Shoulders Inline Display', cursive;
+      font-family: 'Open Sans Condensed', sans-serif;
+      height: 400px;
+
+      
+  }
+.connect{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.dispra{
+    height: 400px;
+    background: url('../../assets/work.jpg') no-repeat;
+}  
+
+.dispra{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dispar{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 600px){
+    .dispar{
+        padding:50px 0 0 0 !important;
+    }
+    .m{
+        display: none;
+    }
+}

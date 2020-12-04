@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display&family=Open+Sans+Condensed:wght@300&display=swap');
+
+.cara{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.cara h2{
+    color: #007bff;
+}
+
+.carb{
+    background: whitesmoke;
+    padding-top: 76px;
+}
+
+.carb img{
+    height: 300px;
+}
+
+.bg{
+    height: 400px !important;
+}

@@ -1,0 +1,19 @@
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: block !important;
+}
+
+.owl-carousel {
+  z-index: 0 !important;
+}
+
+.item {
+  height: 217px;
+  background: whitesmoke;
+  border-radius: 32px;
+  border-top: 10px solid #0066ba;
+}
+
+.owl-dots {
+  display: none !important;
+}

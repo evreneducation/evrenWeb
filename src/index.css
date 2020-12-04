@@ -1,0 +1,24 @@
+@font-face {
+  font-family: FontName;
+  src: url('./assets/Vision-Thin.otf');
+  /* src: url('path/filename.eot?#iefix') format('embedded-opentype'),
+  url('path/filename.woff2') format('woff2'),
+  url('path/filename.woff') format('woff'),
+  url('path/filename.ttf') format('truetype'); */
+  }
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'FontName', Helvetica, Arial, sans-serif !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
