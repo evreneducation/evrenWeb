@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './discover.css';
 import Compa from './compa';
-import Img1 from '../../assets/international.jpg';
+import Img1 from '../../assets/international1.jpg';
 import Par from './par';
 import Discard from './discard';
 import {Link} from 'react-router-dom';

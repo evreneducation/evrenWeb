@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import Comma from '../comma';
-import Img1 from '../../assets/international.jpg';
+import Img1 from '../../assets/international1.jpg';
 import Parpar from './parpar';
 import Owl from './owl';
 import './partner.css';
 
 export default class Partner extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-}
+  
     constructor() {
         super();
     
         this.state = {
           data: [],
-          isLoaded: false,
+          isLoaded: true,
           responsive: {
             0: {
               items: 1,
@@ -29,9 +27,9 @@ export default class Partner extends Component {
         };
       }
       componentDidMount() {
-        fetch("https://jsonplaceholder.typicode.com/todos")
-          .then((response) => response.json())
-          .then((json) => this.setState({ data: json, isLoaded: true }));
+        
+          window.scrollTo(0, 0);
+      
       }
     render() {
         return (

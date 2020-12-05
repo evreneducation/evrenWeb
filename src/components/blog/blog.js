@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Comma from '../comma';
-import Img1 from '../../assets/international.jpg';
+import Img1 from '../../assets/international1.jpg';
 import Img2 from '../../assets/icnb.ico';
 import './blog.css';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Comma from '../comma';
-import Img1 from '../../assets/international.jpg';
+import Img1 from '../../assets/international1.jpg';
 import Parpar from './parpar';
 import Owl from './owl';
 import './partner.css';
@@ -14,7 +14,7 @@ export default class Client extends Component {
     
         this.state = {
           data: [],
-          isLoaded: false,
+          isLoaded: true,
           responsive: {
             0: {
               items: 1,
@@ -33,17 +33,17 @@ export default class Client extends Component {
         return (
             <div>
                 <Comma url={Img1} content="Clients" />
-                <div className="">
+                <div className="m">
                 <Parpar/>
                 </div>
-                {/* <div className="pc">
+                <div className="pc">
                 <Owl 
                 isLoaded={this.state.isLoaded}
                 data={this.state.data}
                 res={this.state.responsive}
                 />
                 </div>
-                 */}
+                
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './services.css';
-import Img1 from '../../assets/international.jpg';
+import Img1 from '../../assets/international1.jpg';
 
 
 export default class Compa extends Component {

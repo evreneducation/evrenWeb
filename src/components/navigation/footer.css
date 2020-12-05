@@ -9,6 +9,8 @@ section .section-title {
   text-transform: uppercase;
 }
 
+
+
 li{
   color: white!important;
 }
@@ -74,5 +76,16 @@ li{
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 667px) {
+  .fot{
+    font-size: 21px;
+    padding-left: 67px;
+  }
+
+  .fotm{
+    padding-left: 60px;
+
   }
 }

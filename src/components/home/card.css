@@ -28,14 +28,14 @@
 
 }
 .imgb{
-  background: url("../../assets/abroad.jpg") no-repeat;
+  background: url("../../assets/abroad1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 
 
 }
 .imgc{
-  background: url("../../assets/international.jpg") no-repeat;
+  background: url("../../assets/international1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 
@@ -45,9 +45,9 @@
 
 .cardBottom {
   height: 35%;
-  text-wrap: normal;
+  /* text-wrap: normal; */
   transition: 0.4s all ease;
-background: url("../../assets/soe.jpg") no-repeat;
+  background: black;
 
   color: white;
 }
