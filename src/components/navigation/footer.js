@@ -41,11 +41,11 @@ export default class Footer extends Component {
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/Evren-Global-Solutions-105297237852842/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						{/* <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li> */}
+						<li class="list-inline-item"><a href="https://www.instagram.com/evrenglobalsolutions/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/company/evren-global-solutions" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@evrenglobalsolutions.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 				</div>
 				<hr/>

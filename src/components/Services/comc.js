@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Img1 from "../../assets/help.jpg";
+import Img1 from "../../assets/help1.jpg";
 
 
 
 export default class Disard extends Component {
     render() {
         return (
-            <div style={{"marginTop": "76px", "background":"whitesmoke"}}>
+            <div  style={{ "background":"whitesmoke"}}>
                 <div className="container"> 
                     <div className="row">
                         <div className="col-md-8">
@@ -15,9 +15,23 @@ export default class Disard extends Component {
                         <div className="row">
                             <div className="col-sm">
                         
-                            <div className="tl">
-                                    <h3><b>Sifting Data To Collect Insights</b></h3>
-                                    <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
+                            <div  className="tl">
+                                    <h3><b>{this.props.title}</b></h3>
+                                    <p>{this.props.content}</p>     
+                           </div>
+                        </div>    
+                        {/* <div className="col-sm">
+                        <div className="tl">
+                               <h3><b>Sifting Data To Collect Insights</b></h3>
+                               <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
+                           </div>
+                        </div>    
+                    </div> */}
+                    {/* <div className="row">
+                        <div className="col-sm">
+                        <div className="tl">
+                               <h3><b>Sifting Data To Collect Insights</b></h3>
+                               <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
                            </div>
                         </div>    
                         <div className="col-sm">
@@ -25,22 +39,8 @@ export default class Disard extends Component {
                                <h3><b>Sifting Data To Collect Insights</b></h3>
                                <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
                            </div>
-                        </div>    
-                    </div>
-                    <div className="row">
-                        <div className="col-sm">
-                        <div className="tl">
-                               <h3><b>Sifting Data To Collect Insights</b></h3>
-                               <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
-                           </div>
-                        </div>    
-                        <div className="col-sm">
-                        <div className="tl">
-                               <h3><b>Sifting Data To Collect Insights</b></h3>
-                               <p>Gain a complete overview of the business and ascertain the data and analytics needs.</p>     
-                           </div>
-                        </div>    
-                    </div>
+                        </div>  */}  
+                    </div> 
                     </div>
                         </div>    
                         <div className="col-md-4 ">

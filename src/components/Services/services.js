@@ -18,7 +18,7 @@ export default class Services extends Component {
                    </div>
     <Comb/>
 </div>
-<Comc/>
+
       </div>
     )
   }

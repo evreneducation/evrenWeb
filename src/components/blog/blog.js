@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Comma from '../comma';
 import Img1 from '../../assets/international1.jpg';
-import Img2 from '../../assets/icnb.ico';
+import Img2 from '../../assets/koshika.jpeg';
+import Img3 from '../../assets/pulkit.jpeg';
+import Img4 from '../../assets/vibhu.jpeg';
 import './blog.css';
 
 
@@ -18,28 +20,28 @@ export default class Blog extends Component {
                     <div className="row">
                         <div className="col-sm">
                             <div >
-                                <img src={Img2} style={{paddingTop:"69px",paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
+                                <img src={Img2} style={{paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
                                 <p style={{background:"whitesmoke"}}>
                                 “It is great to understand you potential. Do visit Evren education to get the best out of yourself.”
                                 </p>
-                                <span>Tarun</span>
+                                <span>-Koshika</span>
                             </div>
                         </div>
                         
                         <div className="col-sm">
                         <div >
-                                <img src={Img2} style={{paddingTop:"69px",paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
+                                <img src={Img4} style={{paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
                                 <p style={{background:"whitesmoke"}}>
                                 “I was not able to understand the best suitable and most economical course for myself. Thanks to Piyush Sir for guiding me.”                                </p>
-                            <span>Priya</span>
+                            <span>-Vibhu</span>
                             </div>
                         </div>
                         <div className="col-sm">
                         <div >
-                                <img src={Img2} style={{paddingTop:"69px",paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
+                                <img src={Img3} style={{paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
                                 <p style={{background:"whitesmoke"}}>
                                     “Studying in Germany was a great experience for me. I would like to thank Dinesh sir and Piyush sir for their motivation.”</p>                            </div>
-                        <span>Rajan</span>
+                        <span>-Pulkit</span>
                         </div>
                     </div>
                 </div>

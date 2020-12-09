@@ -3,10 +3,7 @@ import "./owl.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Img1 from '../../assets/Logo.png';
-import Img2 from '../../assets/MIRAGE.png';
-import Img3 from '../../assets/tweakf.png';
-import Img4 from '../../assets/alphtrix.webp';
+
 
 
 
@@ -59,17 +56,40 @@ export default class Owl extends Component {
             responsive={res}
           >
             <div className="item">
-            <img src={Img3}  className="img-fluid" alt = "logq"/>
-            <h3>Tweaklize</h3>
+            <img src={this.props.Img1} style={{ paddingTop: "23%"}}  className="img-fluid" alt = "logq"/>
             </div>
             <div className="item">
-            <img src={Img4}  className="img-fluid" alt = "logq"/>
+            <img src={this.props.Img2} style={{ paddingTop: "15%"}} className="img-fluid" alt = "logq"/>
             </div>
             <div className="item">
-            <img src={Img1}  className="img-fluid" alt = "logq"/>
+            <img src={this.props.Img3} style={{    paddingTop: "27%"}} className="img-fluid" alt = "logq"/>
             </div>
             <div className="item">
-            <img src={Img2} style={{paddingTop: "44px"}} className="img-fluid" alt = "logq"/>
+            <img src={this.props.Img4} style={{paddingTop: ""}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img5} style={{paddingTop: "31%"}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img6} style={{paddingTop: ""}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img7} style={{paddingTop: ""}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img8} style={{paddingTop: "44px"}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img9} style={{paddingTop: ""}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img10} style={{paddingTop: "21%"}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img12} style={{paddingTop: "31%"}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img13}  className="img-fluid" alt = "logq"/>
             </div>
           </OwlCarousel>
         </div>

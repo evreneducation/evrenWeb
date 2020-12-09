@@ -14,7 +14,7 @@ export default class Parpar extends Component {
                     <div className="row">
                     <div className=" col-sm titl "> 
                     <div className="titlea">
-                        <img src={Img1} className="img-fluid" alt = "logq"/>
+                        <img src={Img2} className="img-fluid" alt = "logq"/>
                     
                     </div>
                     </div>
@@ -35,7 +35,7 @@ export default class Parpar extends Component {
                        <div className="col-sm"></div>
                   <div className=" col-sm titl"> 
                   <div className="titlea">
-                  <img src={Img2} className="img-fluid" alt = "MIRAGE"/>
+                  <img src={Img1} className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>

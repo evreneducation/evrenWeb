@@ -57,10 +57,10 @@ export default class Owl extends Component {
             responsive={res}
           >
             <div className="item">
-            <img src={Img1} className="img-fluid" alt = "logq"/>
+            <img src={Img2} style={{paddingTop: "44px"}} className="img-fluid" alt = "logq"/>
             </div>
             <div className="item">
-            <img src={Img2} style={{paddingTop: "44px"}} className="img-fluid" alt = "logq"/>
+            <img src={Img1}  className="img-fluid" alt = "logq"/>
             </div>
           </OwlCarousel>
         </div>

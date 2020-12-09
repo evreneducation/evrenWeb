@@ -9,9 +9,7 @@
 
 .item {
   height: auto;
-  background: whitesmoke;
-  border-radius: 32px;
-  border-top: 10px solid #0066ba;
+  
 }
 
 .owl-dots {

@@ -48,27 +48,6 @@ export default class Career extends Component {
                 </div>
                 <div className="carb">
                     
-                <div className="container cara">
-                   
-                    <div className="row">
-                        <div className="col-sm">
-                            <img src={Img1} alt="im" className="img-fluid bg"/>
-                            <div>
-                            <br/>
-                                <h3><b>Fresh Hiring</b></h3>
-                                <p>Stay one step ahead in race by stimulating with SLT</p>
-                            </div>
-                        </div>
-                        <div className="col-sm">
-                            <img src={Img1} alt="im" className="img-fluid bg"/>
-                            <div>
-                            <br/>
-                                <h3><b>Fresh Hiring</b></h3>
-                                <p>Stay one step ahead in race by stimulating with SLT</p>
-                            </div>
-                        </div>
-                    </div>
-               </div>
                 
             </div>
             </div>
