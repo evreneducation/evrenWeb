@@ -10,8 +10,8 @@ export default class Disard extends Component {
     constructor(){
       super();
       this.state = {
-        content : "none",
-        title : "none"
+        content : "It Services",
+        title : "It Services"
       }
       // this.myRef = React.createRef()  
 
@@ -84,6 +84,8 @@ export default class Disard extends Component {
             
           </div>
         </div>
+        <div style={{background:"white", height: "100px"}}></div>
+
         <Comc  content={this.state.content} title={this.state.title}/>
             </div>
         )

@@ -17,8 +17,9 @@ export default class Home extends Component {
                 <Video/>
                 <About/>
                 <Cards/>
-                <Parallax/>
                 <Compb/>
+                <Parallax/>
+                
                 </div>
             </div>
         )

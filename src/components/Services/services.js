@@ -16,6 +16,7 @@ export default class Services extends Component {
                        <h2 className="cardd">Our Mission</h2>
                        <p>To provide all Consulting and IT solutions partnering with SBA Inc., for the entire enterprise value chain.</p>
                    </div>
+                   
     <Comb/>
 </div>
 

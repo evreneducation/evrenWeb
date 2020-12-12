@@ -15,7 +15,8 @@ import Img6 from '../../assets/EGSClientsLogo/Subtle.png';
 import Img5 from '../../assets/EGSClientsLogo/Xploriser.png';
 import Img4 from '../../assets/EGSClientsLogo/AddedIndia.jpg';
 import Img12 from '../../assets/EGSClientsLogo/BOI.jpg';
-import Img13 from '../../assets/owlpr.jpeg';
+import Img13 from '../../assets/EGSClientsLogo/owlpr.jpeg';
+import Img14 from '../../assets/EGSClientsLogo/etios.jpeg'
 
 
 export default class Client extends Component {
@@ -61,6 +62,7 @@ export default class Client extends Component {
                 Img10 = {Img10}
                 Img12 = {Img12}
                 Img13 = {Img13}
+                Img14 = {Img14}
                 
                 />
                 </div>
@@ -78,6 +80,7 @@ export default class Client extends Component {
                  Img10 = {Img10}
                  Img12 = {Img12}
                  Img13 = {Img13}
+                 Img14 = {Img14}
                 isLoaded={this.state.isLoaded}
                 data={this.state.data}
                 res={this.state.responsive}

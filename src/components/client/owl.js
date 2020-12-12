@@ -89,7 +89,10 @@ export default class Owl extends Component {
             <img src={this.props.Img12} style={{paddingTop: "31%"}} className="img-fluid" alt = "logq"/>
             </div>
             <div className="item">
-            <img src={this.props.Img13}  className="img-fluid" alt = "logq"/>
+            <img src={this.props.Img13} style={{marginTop: "20%"}} className="img-fluid" alt = "logq"/>
+            </div>
+            <div className="item">
+            <img src={this.props.Img14} style={{marginTop: "20%"}} className="img-fluid" alt = "logq"/>
             </div>
           </OwlCarousel>
         </div>

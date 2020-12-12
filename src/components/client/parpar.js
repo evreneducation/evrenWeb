@@ -99,7 +99,7 @@ export default class Parpar extends Component {
                        <div className="col-sm"></div>
                   <div className=" col-sm titl"> 
                   <div className="">
-                  <img src={this.props.Img6} className="img-fluid" alt = "MIRAGE"/>
+                  <img src={this.props.Img6} style={{height: "282px",width: "322px", margin: "14% 0 0% 20%"}} className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>
@@ -116,7 +116,7 @@ export default class Parpar extends Component {
                        
                   <div className=" col-sm titl"> 
                   <div className="">
-                  <img src={this.props.Img7} style={{padding: "17%"}} className="img-fluid" alt = "MIRAGE"/>
+                  <img src={this.props.Img7} style={{    padding: "14% 0% 0 20%"}} className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>
@@ -134,7 +134,7 @@ export default class Parpar extends Component {
                    <div className="col-sm"></div>
                   <div className=" col-sm titl"> 
                   <div className="">
-                  <img src={this.props.Img8} className="img-fluid" alt = "MIRAGE"/>
+                  <img src={this.props.Img8} style = {{marginTop: "1%"}}className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>
@@ -170,7 +170,7 @@ export default class Parpar extends Component {
                    <div className="col-sm"></div>
                   <div className=" col-sm titl"> 
                   <div className="">
-                  <img src={this.props.Img10} style={{paddingTop:"19%"}} className="img-fluid" alt = "MIRAGE"/>
+                  <img src={this.props.Img10} style={{paddingTop:"13%"}} className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>
@@ -187,7 +187,7 @@ export default class Parpar extends Component {
                    
                   <div className=" col-sm titl"> 
                   <div className="">
-                  <img src={this.props.Img13} style={{height:"436px !important"}}  className="img-fluid" alt = "MIRAGE"/>
+                  <img src={this.props.Img13} style={{height:"436px !important",marginTop: "18%"}}  className="img-fluid" alt = "MIRAGE"/>
 
                   </div>
                   </div>
@@ -211,6 +211,26 @@ export default class Parpar extends Component {
                   
   
                   
+              </div>
+              </div>
+          
+             </div>
+            
+             <div className="dispar">
+             <div className=" container ">
+                   
+                   <div className="row">
+                   
+                  <div className=" col-sm titl"> 
+                  <div className="">
+                  <img src={this.props.Img14} style={{padding : "65px 0px 0px 7px"}} className="img-fluid" alt = "MIRAGE"/>
+
+                  </div>
+                  
+                  </div>
+                  
+  
+                  <div className="col-sm"></div>
               </div>
               </div>
           

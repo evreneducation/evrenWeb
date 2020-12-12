@@ -14,7 +14,7 @@ export default class Parpar extends Component {
                     <div className="row">
                     <div className=" col-sm titl "> 
                     <div className="titlea">
-                        <img src={Img2} className="img-fluid" alt = "logq"/>
+                        <img src={Img2} style={{marginTop: "69px"}}className="img-fluid" alt = "logq"/>
                     
                     </div>
                     </div>

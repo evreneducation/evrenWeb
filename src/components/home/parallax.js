@@ -8,7 +8,7 @@ export default class Parallax extends Component {
     render() {
         return (
             <div>
-                <div className=" kol">
+                {/* <div className=" kol">
                     <div className="container">
                     <div className="row">
                     <div className=" col-sm title"> 
@@ -20,7 +20,7 @@ export default class Parallax extends Component {
                     
                 </div>
                 </div>
-                    </div>
+                    </div> */}
                     
                 <section className="ko"> 
                 <Compa/>

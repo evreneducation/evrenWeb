@@ -33,7 +33,8 @@ export default class Cards extends Component {
       <h3 class="cardTitle">Study Abroad</h3>
       
       <div class="cardHoverText">
-      <p className="utext">Website Development, Android App Development, IOS App Development
+      <p className="utext">We help you finalize good Universities for application, LOR, SOP etc. After admission, we also help in VISA assistance.
+        
 </p>
       </div>
     </div>

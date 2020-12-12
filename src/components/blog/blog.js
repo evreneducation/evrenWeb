@@ -21,9 +21,9 @@ export default class Blog extends Component {
                         <div className="col-sm">
                             <div >
                                 <img src={Img2} style={{paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
-                                <p style={{background:"whitesmoke"}}>
-                                “It is great to understand you potential. Do visit Evren education to get the best out of yourself.”
-                                </p>
+                                
+                                
+                               <p> “Studying in Germany was a great experience for me. I would like to thank Dinesh sir and Piyush sir for their motivation.”</p>
                                 <span>-Koshika</span>
                             </div>
                         </div>
@@ -40,8 +40,9 @@ export default class Blog extends Component {
                         <div >
                                 <img src={Img3} style={{paddingBottom:"20px"}} className="img-fluid" alt="imh"/>
                                 <p style={{background:"whitesmoke"}}>
-                                    “Studying in Germany was a great experience for me. I would like to thank Dinesh sir and Piyush sir for their motivation.”</p>                            </div>
-                        <span>-Pulkit</span>
+                                “It is great to understand you potential. Do visit Evren education to get the best out of yourself.”
+                                </p>  
+                                                              </div>                        <span>-Pulkit</span>
                         </div>
                     </div>
                 </div>
