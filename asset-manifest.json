@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.55a3f65f.chunk.css",
-    "main.js": "/static/js/main.45663403.chunk.js",
-    "main.js.map": "/static/js/main.45663403.chunk.js.map",
+    "main.css": "/static/css/main.89cbc624.chunk.css",
+    "main.js": "/static/js/main.968b18d5.chunk.js",
+    "main.js.map": "/static/js/main.968b18d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72c68551.js",
     "runtime-main.js.map": "/static/js/runtime-main.72c68551.js.map",
     "static/css/2.a44c59e0.chunk.css": "/static/css/2.a44c59e0.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.cddfb41c.chunk.js.map": "/static/js/3.cddfb41c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a44c59e0.chunk.css.map": "/static/css/2.a44c59e0.chunk.css.map",
-    "static/css/main.55a3f65f.chunk.css.map": "/static/css/main.55a3f65f.chunk.css.map",
+    "static/css/main.89cbc624.chunk.css.map": "/static/css/main.89cbc624.chunk.css.map",
     "static/js/2.87d8a8a2.chunk.js.LICENSE.txt": "/static/js/2.87d8a8a2.chunk.js.LICENSE.txt",
     "static/media/AddedIndia.cf258021.png": "/static/media/AddedIndia.cf258021.png",
     "static/media/BIT-LOGO-JPEG.95ce8f24.png": "/static/media/BIT-LOGO-JPEG.95ce8f24.png",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.72c68551.js",
     "static/css/2.a44c59e0.chunk.css",
     "static/js/2.87d8a8a2.chunk.js",
-    "static/css/main.55a3f65f.chunk.css",
-    "static/js/main.45663403.chunk.js"
+    "static/css/main.89cbc624.chunk.css",
+    "static/js/main.968b18d5.chunk.js"
   ]
 }
