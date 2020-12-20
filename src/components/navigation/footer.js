@@ -13,7 +13,7 @@ export default class Footer extends Component {
       <section id="footer">
 		<div class="container">
 			<div class="row fot text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-sm">
 					<h5>EGS</h5>
 					<ul class="list-unstyled quick-links">
 						<Link to="/"><li><i class="fa fa-angle-double-right"></i>Home</li></Link>
@@ -21,7 +21,7 @@ export default class Footer extends Component {
 						<Link to ="/blog"><li><i class="fa fa-angle-double-right"></i>FAQ</li></Link>
 					</ul>
 				</div>
-				<div class="col-xs-12 fotm col-sm-4 col-md-4">
+				<div class="col-sm">
 					<h5>Discover</h5>
 					<ul class="list-unstyled quick-links">
 						<Link to="/discover"><li><i class="fa fa-angle-double-right"></i>discover</li></Link>
@@ -29,12 +29,21 @@ export default class Footer extends Component {
 						<Link to="/career"><li><i class="fa fa-angle-double-right"></i>Career</li></Link>
 					</ul>
 				</div>
-				<div class="col-xs-12 fotm col-sm-4 col-md-4">
+				<div class="col-sm">
 					<h5>Get in Touch</h5>
 					<ul class="list-unstyled quick-links">
 						<Link to="/blog"><li><i class="fa fa-angle-double-right"></i>Testimonials</li></Link>
 						<Link to="/partner"><li><i class="fa fa-angle-double-right"></i>Partners</li></Link>
 						<Link to="/contact"><li><i class="fa fa-angle-double-right"></i>Contact</li></Link>
+					</ul>
+				</div>
+				{/* col-xs-12  col-sm-4 col-md-4 */}
+				<div class="col-sm">
+					<h5>Others</h5>
+					<ul class="list-unstyled quick-links">
+						<Link to="/privacy"><li><i class="fa fa-angle-double-right"></i>Privacy Policy</li></Link>
+						<Link to="/tnc"><li><i class="fa fa-angle-double-right"></i>Terms & Conditions</li></Link>
+						<Link to="/crp"><li><i class="fa fa-angle-double-right"></i>Cancellation/Refund Policy</li></Link>
 					</ul>
 				</div>
 			</div>
