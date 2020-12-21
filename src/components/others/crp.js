@@ -15,7 +15,7 @@ class Crp extends Component {
                     <p style={{borderStyle: "ridge", padding:"3%",fontWeight:"20px", textAlign: "left" }}>
                         <b>
                             <ul>
-                                <li>Students who want to withdraw from the program must inform StudyEurope.in in writing.</li>
+                                <li>Students who want to withdraw from the program must inform EGS in writing.</li>
                                 <li>The application fee is refundable only if there is any cancellation in the program or the application is rejected
                                     by the university.</li>
                                 <li>No reimbursement will be given to any student if they withdraw after the deadline.</li>
