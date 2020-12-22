@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from './components/navigation/nav.js';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter, Route } from "react-router-dom";
 import Footer from './components/navigation/footer';
 import Home from './components/home/home';
 import Discover from './components/discover/discover';
@@ -18,7 +18,7 @@ import Mcq from './components/tests/mcq';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Nav/>
       <Route exact path="/" component={Home}/>
@@ -37,7 +37,7 @@ function App() {
           <Footer/>
     </div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
