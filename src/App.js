@@ -13,6 +13,7 @@ import Client from './components/client/client';
 import Privacy from './components/others/privacy';
 import Tnc from './components/others/tnc';
 import Crp from './components/others/crp';
+import Mcq from './components/tests/mcq';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route exact path="/tnc" component={Tnc}/>
       <Route exact path="/crp" component={Crp}/>
       <Route exact path="/Contact" component={Contact}/>
+      <Route exact path="/mcq" component={Mcq}/>
 
           <Footer/>
     </div>
